@@ -3,6 +3,8 @@ Starter iOS and macOS code for Swift–JavaScript communication through WebKit
 
 ### Under heavy development.
 
+**Possible better print JS.function concept**: https://stackoverflow.com/a/11279959/1234120
+
 Note: Parse JavaScript code and stringify all functions as such:
 ```js
 function getAllFunctions() { 
