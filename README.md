@@ -17,4 +17,5 @@ function getAllFunctions() {
 } getAllFunctions();
 
 // jsFiddle demo: https://stackoverflow.com/a/11279639/1234120
+// A simplified alternative: https://stackoverflow.com/a/34912116/1234120
 ```
