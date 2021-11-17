@@ -8,7 +8,7 @@ Note: Parse JavaScript code and stringify all functions as such:
 function getAllFunctions() { 
   var allfunctions=[];
   for (var i in window) {
-    if((typeof window[i]).toString()=="function"){
+    if((typeof window[i]).toString()=="function" && window[i].toString().indexOf("native")==-1) {
       allfunctions.push(window[i].name);
     }
   }
